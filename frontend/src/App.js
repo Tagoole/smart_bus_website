@@ -37,7 +37,7 @@ function App() {
                   <span className="bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent"> Public Transport</span>
                 </h1>
                 <p className="text-xl text-gray-600 leading-relaxed max-w-2xl">
-                  Transform your daily commute with real-time tracking, seamless mobile ticketing, and intelligent route planning. Experience public transportation like never before.
+                  Transform your daily commute with real-time bus  tracking, seamless mobile ticketing, and intelligent route planning. Experience public transportation like never before.
                 </p>
               </div>
               
@@ -45,25 +45,10 @@ function App() {
                 <button className="bg-gradient-to-r from-blue-600 to-blue-700 text-white px-8 py-4 rounded-xl font-semibold text-lg hover:from-blue-700 hover:to-blue-800 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl">
                   Download Now
                 </button>
-                <button className="border-2 border-blue-600 text-blue-600 px-8 py-4 rounded-xl font-semibold text-lg hover:bg-blue-600 hover:text-white transition-all duration-200">
-                  Watch Demo
-                </button>
+                
               </div>
               
-              <div className="flex items-center space-x-8 pt-4">
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">50K+</div>
-                  <div className="text-gray-600">Daily Users</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">98%</div>
-                  <div className="text-gray-600">On-Time Performance</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-blue-600">200+</div>
-                  <div className="text-gray-600">Routes Covered</div>
-                </div>
-              </div>
+              
             </div>
             
             <div className="relative">
@@ -114,7 +99,7 @@ function App() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-gray-900">Mobile Ticketing</h3>
-              <p className="text-gray-600">Purchase tickets digitally with secure payments and instant QR code generation.</p>
+              <p className="text-gray-600">Purchase tickets digitally with secure payments</p>
             </div>
             
             <div className="text-center space-y-4 p-6 rounded-2xl border border-gray-100 hover:border-blue-200 hover:shadow-lg transition-all duration-300">
@@ -124,7 +109,7 @@ function App() {
                 </svg>
               </div>
               <h3 className="text-xl font-semibold text-gray-900">Route Optimization</h3>
-              <p className="text-gray-600">AI-powered route planning and optimization for maximum efficiency and reduced wait times.</p>
+              <p className="text-gray-600">Route planning and optimization for maximum efficiency using the Self Organising Map and reduced wait times.</p>
             </div>
           </div>
         </div>
@@ -248,7 +233,7 @@ function App() {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
                     </svg>
                   </div>
-                  <h3 className="text-2xl font-bold text-gray-900">AI-Powered Route Optimization</h3>
+                  <h3 className="text-2xl font-bold text-gray-900"> SOM Route Optimization</h3>
                 </div>
                 <p className="text-lg text-gray-600 leading-relaxed">
                   Our intelligent dashboard uses machine learning to optimize routes, predict demand, and improve overall system efficiency for transport operators.
@@ -281,7 +266,7 @@ function App() {
                   className="w-full max-w-md mx-auto rounded-2xl shadow-2xl"
                 />
                 <div className="absolute -top-4 -right-4 bg-purple-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
-                  AI-Powered
+                  SOM - Powered
                 </div>
               </div>
             </div>
@@ -295,7 +280,7 @@ function App() {
           <div className="space-y-8">
             <h2 className="text-4xl font-bold text-white">Download SmartBus Today</h2>
             <p className="text-xl text-blue-100 max-w-3xl mx-auto">
-              Join thousands of commuters who have transformed their daily travel experience. Available for Android and iOS.
+              Join commuters who have transformed their daily travel experience. Available for Android as per now.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
